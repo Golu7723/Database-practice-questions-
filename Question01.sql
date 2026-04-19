@@ -1,6 +1,4 @@
 use practice;
-
-
 -- create a table inside the DB to store employee info (id, name and salary). 
 
 create table Question01 (
@@ -25,3 +23,12 @@ insert into temp01 values (100);
 insert into temp01 values (100);
 
 select * from temp01;
+
+
+create table emp (
+ id int, 
+ salary int default 25000
+);
+
+insert into emp(id) values(100);
+select * from emp;
