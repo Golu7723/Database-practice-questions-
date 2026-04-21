@@ -86,3 +86,11 @@ VALUES
 (210, 'Priya', 'Vijay Nagar', 6800);
 
 select * from customer;
+
+select cname, amont
+from customer 
+where amont=( select max(amont) from customer);
+
+select * from deposit;
+
+select * from borrow;
