@@ -27,3 +27,17 @@ select rollno, name, marks from student;
 select city from student;
 
 select distinct city from student;
+
+
+select * 
+from student 
+where marks > 80  and city = "Mumbai";
+
+select * from student where marks > 80;
+
+select MAX( marks) from student;
+
+SELECT name, marks from student 
+where marks=(select min(marks) from student);
+
+select avg( marks) from student;
