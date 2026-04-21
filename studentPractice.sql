@@ -8,6 +8,6 @@ create table studentdatabase(
 );
 
 insert into studentdatabase values(1, "sakshi bhati", 20);
-insert into studentdatabase values(2, "Ary bhati", 20); 
+insert into studentdatabase values(2, "Ary bhati", 20); 						
 
-show tables;select * from studentdatabase;
+select * from studentdatabase;c
